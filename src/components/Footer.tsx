@@ -1,5 +1,5 @@
 import { Phone, Mail, Clock, MapPin, Instagram, } from "lucide-react";
-
+import LogoImage from '@/assets/icone-dv.png';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Coluna 1: Logo + Redes Sociais */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src="/src/assets/icone-dv.png" alt="Logo Dragão Vermelho" className="w-12 h-12" />
+              <img src={LogoImage} alt="Logo Dragão Vermelho" className="w-12 h-12" />
               <h3 className="text-xl font-bold">Dragão Vermelho</h3>
             </div>
             <p className="text-secondary-foreground/80 text-sm">

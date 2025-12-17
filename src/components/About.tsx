@@ -1,3 +1,4 @@
+import ImageProf from '@/assets/cleitinho.png';
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
             <div className="order-1 md:order-2">
                 <div className="rounded-2xl overflow-hidden shadow-card">
                 <img 
-                  src="/src/assets/cleitinho.png" 
+                  src={ImageProf} 
                   alt="Professor Cleiton Rodrigo com alunos da Equipe Dragão Vermelho"
                   className="w-full h-auto object-cover"
                 />
