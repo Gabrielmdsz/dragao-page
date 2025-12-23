@@ -41,15 +41,6 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <div>
-                  <p className="font-semibold text-secondary-foreground">E-mail</p>
-                  <a href="mailto:contato@dragaovermelho.com.br" className="hover:text-primary transition-smooth">
-                    contato@dragaovermelho.com.br
-                  </a>
-                </div>
-              </div>
               <p className="text-sm">
                 💬 Resposta rápida das 8h às 22h
               </p>
