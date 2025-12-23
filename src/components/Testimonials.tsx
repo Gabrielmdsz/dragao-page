@@ -66,7 +66,7 @@ const Testimonials = () => {
               variant="accent" 
               size="lg"
               onClick={scrollToContact}
-              className="text-lg px-10 py-6 h-auto"
+              className="w-full md:w-auto max-w-full whitespace-normal text-base md:text-lg px-4 md:px-10 py-6 h-auto m-auto flex items-center justify-center gap-2"
 
             >
               ✅ Quero fazer uma aula experimental

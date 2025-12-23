@@ -1,4 +1,4 @@
-import ImageProf from '@/assets/cleitinho.png';
+import ImageProf from '@/assets/professor.png';
 
 const About = () => {
   return (
