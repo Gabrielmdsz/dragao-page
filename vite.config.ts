@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base:"/dragao-page/",
+  base: process.env.VERCEL ? '/' : '/dragao-page/',
   
   server: {
     host: "::",
