@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Lucas M.",
-      text: "Comecei sem saber nada e hoje o Muay Thai virou parte da minha vida. O Cleiton é um professor que realmente se importa."
+      name: "Gabryela Cavagnari.",
+      text: "O professor é excelente. As aulas são bem dinâmicas, com muitas técnicas e muita prática. Super recomendo. Façam uma aula experimental."
     },
     {
-      name: "Camila R.",
-      text: "A aula personalizada mudou meu condicionamento e minha autoestima. Recomendo de olhos fechados!"
+      name: "Roberta Carvalho.",
+      text: "Os treinos são sempre muito dinâmicos e técnicos, mas também divertidos. O professor é muito acolhedor e bem didático. Recomendo!"
     },
     {
-      name: "João F.",
-      text: "Ambiente acolhedor, respeitoso, sem julgamentos. Me senti em casa desde o primeiro dia."
+      name: "Matheus de Castro.",
+      text: "Sem dúvidas o melhor professor de Recife, super informado,estuda diariamente sempre em busca de trazer novidades para seus alunos, além das relações de amizade formadas durante os treinos."
     }
   ];
 
